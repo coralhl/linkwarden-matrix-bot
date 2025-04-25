@@ -1,0 +1,40 @@
+# Игнорируем директории виртуальных окружений
+venv/
+.env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Игнорируем файлы IDE
+*.vscode/
+*.idea/
+
+# Логи и временные файлы
+*.log
+*.swp
+*.tmp
+
+# Git-файлы
+.git
+.gitignore
+
+# Docker- и CI-файлы
+Dockerfile
+.dockerignore
+
+# OS-специфические файлы
+.DS_Store
+Thumbs.db
+
+# Тесты (если не нужны в проде)
+tests/
+
+README.md
+LICENSE
+
+store/*
+session.txt
+config.yaml
